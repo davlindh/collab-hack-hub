@@ -1,0 +1,12 @@
+version: 1
+repository: davlindh/collab-hack-hub
+purpose: Hackathon collaboration and project coordination experiment.
+status: vertical-reference
+canonical_parent: davlindh/faving-journey-shaper
+capabilities: [hackathons, teams, projects, collaboration]
+vertical: hackathon
+omniframez_role: vertical-validation
+evidence: {confidence: inferred, sources: [repository-name]}
+harvest_action: harvest-domain-capabilities
+relations:
+  - validates: event-based collaboration workflows
